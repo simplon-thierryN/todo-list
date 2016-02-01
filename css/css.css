@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  box-sizing: border-box;
+}
+
+*:before,*:after{
+  box-sizing: inherit;
+}
+
+body{
+  font-family: Geneva,Arial,sans-serif;
+}
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                      index
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+.formulaire,form,.tasks{
+  display: flex;
+}
+
+.container{
+  width: 100%;
+  /*border: 1px solid black;*/
+}
+
+.formulaire{
+  width: 30%;
+  /*height: 10em;*/
+  margin: 10em auto;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.formulaire,.formulaire div,.container3,.container4{
+  border: 1px solid black;
+}
+
+form input{
+  margin-top: .5em;
+}
+
+.formulaire div{
+  width: 100%;
+  /*border-bottom: none;*/
+}
+
+.container h2{
+  text-align: center;
+  padding: 1em 0;
+}
+
+form{
+  flex-direction: column;
+  justify-content: center;
+  /*border-bottom: none;*/
+}
+
+form input,label{
+  width: 70%;
+}
+
+form input{
+  margin-bottom: 2em;
+}
+
+form button{
+  margin-bottom: 2em;
+}
+
+.cancel{
+  width: 15%;
+  align-self: flex-end;
+}
+
+.register,.login,.submit,.cancel {
+  display: none;
+}
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                      section2
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+.log{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.log a,.log p{
+  margin: 1em;
+}
+.tasks{
+  /*border: 1px solid red;*/
+  background-color: #1BBC9B;
+  height: 90vh;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  align-content: flex-start;
+}
+
+.container2,.container3,.container4{
+  background-color: #EEEFF1;
+}
+
+.tasks h1{
+  width: 100%;
+  text-align: center;
+  margin: 1em;
+  font-size: 3em;
+}
+
+.tasks h2{
+  width: 100%;
+  border: 1px solid red;
+  padding: .5em 0;
+  margin-bottom: 1em;
+  text-align: center;
+  background-color: white;
+}
+
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 30%;
+  /*border: 1px solid green;*/
+}
+
+.container2 div,.container3 div{
+  width: 100%;
+  background-color: white;
+}
+
+.container2 h2{
+  margin-bottom: 0.5em;
+}
+
+form input,.container2 input{
+  width: 80%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid black;
+}
+
+.container2 p,.container4 p{
+  border-bottom: 1px solid black;
+}
+
+.container2 p,.container4 p{
+  width: 90%;
+  color: red;
+  margin: 0 auto;
+}
+
+.container4 p{
+  text-decoration: line-through;
+  color: green;
+}
+
+.container3{
+  width: 20%;
+  height: 8em;;
+}
+
+.container4{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 30%;
+}
+
+.deleteTable{
+  color: red;
+}
+
+.taskList{
+  display: flex;
+  flex-direction: column;
+  margin: .5em 0;
+}
+
+.tableaux{
+  border: 1px solid green;
+}
